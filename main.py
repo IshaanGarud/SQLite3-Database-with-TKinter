@@ -6,7 +6,7 @@ from tkinter import *
 root = Tk()
 root.title("Database")
 root.geometry("500x500")
-conn = sqlite3.connect("C:/Users/WINDOWS/Desktop/PROGRAMMING/Python3_Desktop/DBprojects/DATABASES/User.db")
+conn = sqlite3.connect("User.db")
 cursor = conn.cursor()
 
 i_field_color = "#c4c3d0"
